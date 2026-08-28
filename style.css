@@ -338,9 +338,9 @@ nav ul {
   position: absolute;
   top: -70px;
   right: -70px;
-  animation: breathe 1.5s ease-in-out infinite alternate;
+  animation: breath 1.5s ease-in-out infinite alternate;
 }
-@keyframes breathe {
+@keyframes breath {
   from {
     transform: translateY(-10px);
   }
