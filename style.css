@@ -26,7 +26,10 @@ nav ul {
   text-decoration: none;
   color: white;
 }
-
+.rotateAngle:hover {
+  transform: rotate(-180deg);
+  transition: transform 0.3s;
+}
 .header-container {
   width: 70%;
   display: flex;
@@ -1005,7 +1008,7 @@ nav ul {
     transform: scale(1);
   }
 }
-@media (max-width: 1440px) {
+@media (max-width: 2560px) {
   .header-container,
   .heroSectionText,
   .loanSectionContainer,
@@ -1015,7 +1018,7 @@ nav ul {
   .bankContainer,
   .benefitCard,
   .footerContainer {
-    width: 50%;
+    width: 70%;
   }
   .heroSectionText p {
     width: 40%;
@@ -1031,6 +1034,9 @@ nav ul {
     width: 20%;
     font-size: 50px;
     font-weight: bold;
+  }
+  .footerForm div {
+    right: 16%;
   }
 }
 
@@ -1104,6 +1110,9 @@ nav ul {
   }
   .footerForm div {
     right: 8%;
+  }
+  .mobileMenu {
+    display: none;
   }
 }
 @media (max-width: 768px) {
