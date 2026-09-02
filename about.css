@@ -1,0 +1,1107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Futura", "century gothic", "arial", sans-serif;
+}
+
+.first-section {
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
+    url("./images/pexels-kampus-8439687.jpg");
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  padding-left: 100px;
+}
+
+.first-section h4 {
+  padding-top: 250px;
+  color: #fff;
+}
+
+.first-section h1 {
+  color: hsl(0, 0%, 100%);
+  margin-top: 30px;
+  font-size: 60px;
+}
+
+.second-section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 5px;
+  padding: 50px;
+}
+
+.item1 h3 {
+  font-size: 20px;
+}
+
+.item2 {
+  padding-left: 200px;
+}
+
+.company-logo {
+  width: 100px;
+  height: auto;
+}
+
+.third-section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.third-section img {
+  width: 450px;
+  margin-left: 150px;
+}
+
+.about-us {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.about-us h1 {
+  font-size: 36px;
+}
+
+.about-us p {
+  width: 500px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.vision-mission {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+  padding: 20px 15px;
+}
+
+.info-card {
+  background-color: #ffffe8;
+  padding: 40px 25px 25px;
+  border-radius: 15px;
+  border: 1px solid #eeeecc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.card-heading {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  width: 43px;
+  height: 43px;
+  background-color: #ffeb21;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 20px;
+}
+
+.info-card h2 {
+  font-size: 30px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.info-card p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 35px;
+}
+
+.mandate {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  min-height: 370px;
+  margin: 20px 25px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.mandate-content {
+  background-color: #d9f8f9;
+  padding: 50px;
+  display: grid;
+  align-content: center;
+}
+
+.mandate-content h2 {
+  font-size: 36px;
+  margin: 0 0 15px;
+  color: #000;
+}
+
+.mandate-content p {
+  max-width: 500px;
+  font-size: 17px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.mandate-image {
+  width: 100%;
+  height: 100%;
+}
+
+.mandate-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.board {
+  width: 100%;
+  padding: 0 30px 80px;
+}
+
+.board-heading {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.board-heading h1 {
+  font-size: 58px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.board-heading p {
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.board-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 100px;
+  row-gap: 55px;
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+.board-member {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.member-image {
+  width: 250px;
+  height: 190px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.member-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.member-info h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.member-info p {
+  color: #536b91;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.impact {
+    position: relative;
+    min-height: 525px;
+    background-color: #1c1c1c;
+    color: #fff;
+    padding: 75px 35px;
+    overflow: hidden;
+}
+
+.impact-top-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 230px;
+    height: 180px;
+    object-fit: contain;
+    z-index: 0;
+    transform: rotate(180deg)
+}
+
+.impact-content {
+    position: relative;
+    z-index: 1;
+    max-width: 700px;
+}
+
+.impact-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.impact-content p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.impact-stats {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 32px;
+    margin-top: 48px;
+}
+
+.impact-stat {
+    border-top: 1px solid #555;
+    padding-top: 95px;
+}
+
+.impact-stat h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.impact-stat p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.impact-bottom-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 280px;
+    height: 200px;
+    object-fit: contain;
+    z-index: 0;
+}
+
+.team {
+    position: relative;
+    min-height: 600px;
+    background-color: #fffbed;
+    padding: 75px 40px;
+    overflow: hidden;
+    color: #071d3d;
+}
+
+.team-top-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 235px;
+    height: 190px;
+    object-fit: contain;
+    z-index: 0;
+    transform: rotate(180deg)
+}
+
+.team-heading {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 65px;
+}
+
+.team-heading span {
+    display: inline-block;
+    border: 1px solid #cbd3dc;
+    border-radius: 20px;
+    padding: 7px 25px;
+    font-size: 13px;
+    color: #111;
+    margin-bottom: 15px;
+}
+
+.team-heading h1 {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 18px;
+    color: #050505;
+}
+
+.team-heading h1 strong {
+    color: #00c995;
+}
+
+.team-heading p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #142c4b;
+}
+
+.team-container {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 70px;
+    max-width: 1150px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team-member {
+    display: grid;
+    justify-items: center;
+}
+
+.team-member img {
+    width: 255px;
+    height: 255px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #9ee56a;
+    margin-bottom: 25px;
+}
+
+.team-member h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 7px;
+    color: #071d3d;
+}
+
+.team-member p {
+    font-size: 16px;
+    color: #142c4b;
+}
+
+.view-all {
+    position: relative;
+    z-index: 2;
+    display: block;
+    width: fit-content;
+    margin: 45px auto 0;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+}
+
+.view-all span {
+    font-size: 22px;
+    margin-left: 5px;
+    vertical-align: -2px;
+}
+
+.team-bottom-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 205px;
+    height: 160px;
+    object-fit: contain;
+    z-index: 0;
+}
+
+/* =========================================
+   TABLET RESPONSIVENESS
+   ========================================= */
+
+@media (max-width: 1024px) {
+
+  /* FIRST SECTION */
+  .first-section {
+    height: 75vh;
+    padding-left: 60px;
+  }
+
+  .first-section h4 {
+    padding-top: 200px;
+  }
+
+  .first-section h1 {
+    font-size: 48px;
+  }
+
+
+  /* SECOND SECTION */
+  .second-section {
+    padding: 40px;
+  }
+
+  .item2 {
+    padding-left: 80px;
+  }
+
+
+  /* THIRD SECTION */
+  .third-section img {
+    width: 380px;
+    margin-left: 70px;
+  }
+
+  .about-us {
+    margin-top: 70px;
+    margin-left: 20px;
+  }
+
+  .about-us p {
+    width: 400px;
+  }
+
+
+  /* VISION & MISSION */
+  .vision-mission {
+    gap: 15px;
+  }
+
+  .info-card {
+    padding: 30px 20px;
+  }
+
+  .info-card h2 {
+    font-size: 26px;
+  }
+
+
+  /* MANDATE */
+  .mandate {
+    grid-template-columns: 60% 40%;
+  }
+
+
+  /* BOARD */
+  .board-container {
+    column-gap: 40px;
+  }
+
+  .board-member {
+    grid-template-columns: 190px 1fr;
+    column-gap: 20px;
+  }
+
+  .member-image {
+    width: 190px;
+    height: 170px;
+  }
+
+  .board-heading h1 {
+    font-size: 48px;
+  }
+
+
+  /* IMPACT */
+  .impact {
+    padding: 65px 30px;
+  }
+
+  .impact-stat {
+    padding-top: 70px;
+  }
+
+  .impact-stat h2 {
+    font-size: 40px;
+  }
+
+
+  /* TEAM */
+  .team {
+    padding: 65px 30px;
+  }
+
+  .team-heading h1 {
+    font-size: 48px;
+  }
+
+  .team-container {
+    gap: 30px;
+  }
+
+  .team-member img {
+    width: 210px;
+    height: 210px;
+  }
+
+  .team-member h2 {
+    font-size: 28px;
+  }
+}
+
+
+/* =========================================
+   MOBILE RESPONSIVENESS
+   ========================================= */
+
+@media (max-width: 768px) {
+
+  /* GENERAL */
+  body {
+    overflow-x: hidden;
+  }
+
+
+  /* =========================================
+     FIRST SECTION
+     ========================================= */
+
+  .first-section {
+    width: 100%;
+    height: 70vh;
+    min-height: 500px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-position: center;
+  }
+
+  .first-section h4 {
+    padding-top: 180px;
+    font-size: 15px;
+  }
+
+  .first-section h1 {
+    margin-top: 20px;
+    font-size: 40px;
+    line-height: 1.15;
+  }
+
+
+  /* =========================================
+     SECOND SECTION
+     ========================================= */
+
+  .second-section {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 40px 25px;
+  }
+
+  .item1 h3 {
+    font-size: 20px;
+  }
+
+  .item2 {
+    padding-left: 0;
+  }
+
+  .logo-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    align-items: center;
+  }
+
+  .company-logo {
+    width: 90px;
+  }
+
+
+  /* =========================================
+     THIRD SECTION
+     ========================================= */
+
+  .third-section {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px 25px;
+  }
+
+  .third-section img {
+    width: 100%;
+    max-width: 400px;
+    margin-left: 0;
+    margin: 0 auto;
+  }
+
+  .about-us {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .about-us h1 {
+    font-size: 32px;
+  }
+
+  .about-us p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+
+  /* =========================================
+     VISION & MISSION
+     ========================================= */
+
+  .vision-mission {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding: 20px 15px;
+  }
+
+  .info-card {
+    padding: 30px 20px;
+  }
+
+  .info-card h2 {
+    font-size: 27px;
+  }
+
+  .info-card p {
+    font-size: 15px;
+    margin-top: 25px;
+  }
+
+
+  /* =========================================
+     MANDATE
+     ========================================= */
+
+  .mandate {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    margin: 20px 15px;
+  }
+
+  .mandate-content {
+    padding: 40px 25px;
+  }
+
+  .mandate-content h2 {
+    font-size: 32px;
+  }
+
+  .mandate-content p {
+    max-width: 100%;
+    font-size: 16px;
+  }
+
+  .mandate-image {
+    height: 300px;
+  }
+
+  .mandate-image img {
+    height: 300px;
+  }
+
+
+  /* =========================================
+     BOARD
+     ========================================= */
+
+  .board {
+    padding: 30px 20px 60px;
+  }
+
+  .board-heading {
+    margin-bottom: 40px;
+  }
+
+  .board-heading h1 {
+    font-size: 42px;
+  }
+
+  .board-heading p {
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  .board-heading p br {
+    display: none;
+  }
+
+  .board-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    max-width: 500px;
+  }
+
+  .board-member {
+    grid-template-columns: 150px 1fr;
+    column-gap: 20px;
+  }
+
+  .member-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+  }
+
+  .member-info h3 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .member-info p {
+    font-size: 13px;
+    line-height: 19px;
+  }
+
+
+  /* =========================================
+     IMPACT
+     ========================================= */
+
+  .impact {
+    min-height: auto;
+    padding: 60px 25px;
+  }
+
+  .impact-top-image {
+    width: 150px;
+    height: 120px;
+  }
+
+  .impact-content {
+    max-width: 100%;
+  }
+
+  .impact-content h1 {
+    font-size: 40px;
+  }
+
+  .impact-content p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .impact-content p br {
+    display: none;
+  }
+
+  .impact-stats {
+    grid-template-columns: 1fr;
+    gap: 35px;
+    margin-top: 40px;
+  }
+
+  .impact-stat {
+    padding-top: 30px;
+  }
+
+  .impact-stat h2 {
+    font-size: 40px;
+  }
+
+  .impact-stat p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .impact-stat p br {
+    display: none;
+  }
+
+  .impact-bottom-image {
+    width: 170px;
+    height: 130px;
+  }
+
+
+  /* =========================================
+     TEAM
+     ========================================= */
+
+  .team {
+    min-height: auto;
+    padding: 60px 25px;
+  }
+
+  .team-top-image {
+    width: 150px;
+    height: 120px;
+  }
+
+  .team-heading {
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .team-heading span {
+    font-size: 11px;
+    padding: 7px 18px;
+  }
+
+  .team-heading h1 {
+    font-size: 40px;
+  }
+
+  .team-heading p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .team-heading p br {
+    display: none;
+  }
+
+  .team-container {
+    grid-template-columns: 1fr;
+    gap: 50px;
+    max-width: 400px;
+  }
+
+  .team-member img {
+    width: 220px;
+    height: 220px;
+    margin-bottom: 20px;
+  }
+
+  .team-member h2 {
+    font-size: 28px;
+  }
+
+  .team-member p {
+    font-size: 15px;
+  }
+
+  .view-all {
+    margin-top: 45px;
+  }
+
+  .team-bottom-image {
+    width: 150px;
+    height: 120px;
+  }
+}
+
+
+/* =========================================
+   SMALL MOBILE PHONES
+   ========================================= */
+
+@media (max-width: 480px) {
+
+  /* FIRST SECTION */
+  .first-section {
+    height: 65vh;
+    min-height: 450px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .first-section h4 {
+    padding-top: 150px;
+    font-size: 14px;
+  }
+
+  .first-section h1 {
+    font-size: 32px;
+    margin-top: 15px;
+  }
+
+
+  /* SECOND SECTION */
+  .second-section {
+    padding: 35px 20px;
+  }
+
+  .item1 h3 {
+    font-size: 18px;
+  }
+
+  .logo-section {
+    gap: 20px;
+  }
+
+  .company-logo {
+    width: 75px;
+  }
+
+
+  /* THIRD SECTION */
+  .third-section {
+    padding: 20px;
+  }
+
+  .third-section img {
+    max-width: 320px;
+  }
+
+  .about-us h1 {
+    font-size: 28px;
+  }
+
+  .about-us p {
+    font-size: 15px;
+  }
+
+
+  /* VISION & MISSION */
+  .vision-mission {
+    padding: 15px;
+  }
+
+  .info-card {
+    padding: 25px 18px;
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .info-card h2 {
+    font-size: 24px;
+  }
+
+  .info-card p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+
+  /* MANDATE */
+  .mandate {
+    margin: 15px;
+  }
+
+  .mandate-content {
+    padding: 35px 20px;
+  }
+
+  .mandate-content h2 {
+    font-size: 28px;
+  }
+
+  .mandate-content p {
+    font-size: 15px;
+  }
+
+  .mandate-image {
+    height: 250px;
+  }
+
+  .mandate-image img {
+    height: 250px;
+  }
+
+
+  /* BOARD */
+  .board {
+    padding: 25px 15px 50px;
+  }
+
+  .board-heading h1 {
+    font-size: 36px;
+  }
+
+  .board-heading p {
+    font-size: 14px;
+  }
+
+  .board-member {
+    grid-template-columns: 120px 1fr;
+    column-gap: 15px;
+  }
+
+  .member-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+  }
+
+  .member-info h3 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .member-info p {
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+
+  /* IMPACT */
+  .impact {
+    padding: 50px 20px;
+  }
+
+  .impact-top-image {
+    width: 110px;
+    height: 90px;
+  }
+
+  .impact-content h1 {
+    font-size: 34px;
+  }
+
+  .impact-content p {
+    font-size: 14px;
+    line-height: 23px;
+  }
+
+  .impact-stat {
+    padding-top: 25px;
+  }
+
+  .impact-stat h2 {
+    font-size: 34px;
+  }
+
+  .impact-stat p {
+    font-size: 14px;
+  }
+
+  .impact-bottom-image {
+    width: 120px;
+    height: 100px;
+  }
+
+
+  /* TEAM */
+  .team {
+    padding: 50px 20px;
+  }
+
+  .team-top-image {
+    width: 110px;
+    height: 90px;
+  }
+
+  .team-heading span {
+    font-size: 10px;
+    padding: 6px 15px;
+  }
+
+  .team-heading h1 {
+    font-size: 34px;
+  }
+
+  .team-heading p {
+    font-size: 14px;
+    line-height: 23px;
+  }
+
+  .team-container {
+    gap: 45px;
+  }
+
+  .team-member img {
+    width: 190px;
+    height: 190px;
+  }
+
+  .team-member h2 {
+    font-size: 25px;
+  }
+
+  .team-member p {
+    font-size: 14px;
+  }
+
+  .team-bottom-image {
+    width: 110px;
+    height: 90px;
+  }
+}
