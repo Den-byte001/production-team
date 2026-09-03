@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="icon" type="image/png" sizes="32x32" href="/logodesign.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/logodesign.png" />
     <link
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
       rel="stylesheet"
@@ -27,12 +27,15 @@
         />
         <nav>
           <ul class="navList">
-            <li><a href="">Home</a></li>
+            <li><a href="#">Home</a></li>
             <li><a href="./about.html">About Us</a></li>
-            <li><a href="">How to Apply</a></li>
+            <li><a href="./how-to-apply.html">How to Apply</a></li>
             <li class="dropDown">
-              <a href="">Our Initiatives <span><i class="fas fa-angle-down"></i></span></a>
-              
+              <a href="" class="rotateAngle"
+                >Our Initiatives
+                <span><i class="fas fa-angle-down rotateAngle"></i></span
+              ></a>
+
               <ul class="dropMenu">
                 <li><a href="">C.A.L.M Fund</a></li>
                 <li><a href="">S.C.A.L.E</a></li>
@@ -40,12 +43,15 @@
                 <li><a href="">G.R.E.E.N</a></li>
                 <li><a href="">YouthCred</a></li>
               </ul>
-              
-            </liv>
-            <li>
-              <a href="">Newsroom</a>
-              <span><i class="fas fa-angle-down"></i></span>
-              
+            </li>
+            <li class="dropDown">
+              <a href="" class="rotateAngle"
+                >Newsroom <span><i class="fas fa-angle-down"></i></span
+              ></a>
+
+              <ul class="dropMenu">
+                <li><a href="">Newsroom / Adverts</a></li>
+              </ul>
             </li>
             <li><a href="">G.R.E.E.N</a></li>
           </ul>
@@ -152,7 +158,9 @@
               <div class="amount"><i></i>You've received ₦100,000</div>
             </div>
             <div class="popUp2">
-              <div class="credited"><i></i>Your credit request has been sent</div>
+              <div class="credited">
+                <i></i>Your credit request has been sent
+              </div>
             </div>
             <div class="accredit"><i></i>Accredited financial institutions</div>
           </div>
@@ -366,7 +374,9 @@
               Take control of your financial future with easy, transparent
               access to credit.
             </p>
-            <a href="" class="accessLink">Access Your Credit <i class="fas fa-arrow-right"></i></a>
+            <a href="" class="accessLink"
+              >Access Your Credit <i class="fas fa-arrow-right"></i
+            ></a>
           </div>
           <div class="cardDiv">
             <img src="/financialInstitute.png" alt="" />
@@ -378,7 +388,7 @@
           </div>
           <div class="cardDiv">
             <img src="/vendors.png" alt="" />
-            <h2>Vendors & Manufacturers</h1>
+            <h2>Vendors & Manufacturers</h2>
             <p>Grow your revenue with accelerated credit backed consumers.</p>
             <a href=""
               >Become with the vendor <i class="fas fa-arrow-right"></i
@@ -390,53 +400,82 @@
     <footer class="footerSection">
       <div class="footerContainer">
         <div class="gridDiv">
-          <div style="grid-area: div-1;" class="grid1">
-            <img src="/footerLogo.png" alt="" width="80%">
+          <div style="grid-area: div-1" class="grid1">
+            <img src="/footerLogo.png" alt="" width="80%" />
             <div class="footerFormDiv">
               <form action="" class="footerForm">
-              <input type="text" placeholder="Email Address" >
-              <div>
-                <a href=""><i class="far fa-paper-plane" style=" transform: rotate(45deg); font-size: 15px;"></i></a>
-              </div>
-            </form>
+                <input type="text" placeholder="Email Address" />
+                <div>
+                  <a href=""
+                    ><i
+                      class="far fa-paper-plane"
+                      style="transform: rotate(45deg); font-size: 15px"
+                    ></i
+                  ></a>
+                </div>
+              </form>
             </div>
-            <p>Stay updated with our latest news, offers, and product updates. Join our newsletter.</p>
+            <p>
+              Stay updated with our latest news, offers, and product updates.
+              Join our newsletter.
+            </p>
           </div>
-          <div style="grid-area: div-2;">
+          <div style="grid-area: div-2">
             <h4>Organization</h4>
             <a href="">About CREDITLINK</a>
             <a href="">Contact Us</a>
             <a href="">Careers</a>
           </div>
-          <div style="grid-area: div-3;">
+          <div style="grid-area: div-3">
             <h4>Resources</h4>
-            <a href="">How To Apply For <br>Credit</a>
+            <a href="">How To Apply For <br />Credit</a>
             <a href="">Become A Partner</a>
             <a href="">Our Blog</a>
           </div>
-          <div style="grid-area: div-4;">
-            <h4>Initiatives & <br>Programs</h4>
+          <div style="grid-area: div-4">
+            <h4>Initiatives & <br />Programs</h4>
             <a href="">C.A.L.M Fund</a>
             <a href="">S.C.A.L.E</a>
             <a href="">G.R.E.E.N</a>
           </div>
-          <div style="grid-area: div-5;">
+          <div style="grid-area: div-5">
             <h4>Legal</h4>
             <a href="">Legal and Privacy</a>
             <a href="">Terms of Use</a>
             <a href="">FOI Compliance</a>
             <a href="">Whistleblower Policy</a>
           </div>
-          <div style="grid-area: div-6;" class="appLogo">
-            <div><a href=""><i class="fa-brands fa-x-twitter" style="background-color: black;"></i></a></div>
-            <div><a href=""><i class="fa-brands fa-facebook-f" style="background-color: rgb(26, 61, 117);"></i></a></div>
-            <div><a href=""><i class="fa-brands fa-linkedin-in" style="background-color: rgb(19, 62, 201);"></i></a></div>
+          <div style="grid-area: div-6" class="appLogo">
+            <div>
+              <a href=""
+                ><i
+                  class="fa-brands fa-x-twitter"
+                  style="background-color: black"
+                ></i
+              ></a>
+            </div>
+            <div>
+              <a href=""
+                ><i
+                  class="fa-brands fa-facebook-f"
+                  style="background-color: rgb(26, 61, 117)"
+                ></i
+              ></a>
+            </div>
+            <div>
+              <a href=""
+                ><i
+                  class="fa-brands fa-linkedin-in"
+                  style="background-color: rgb(19, 62, 201)"
+                ></i
+              ></a>
+            </div>
           </div>
         </div>
         <div class="copyRight">
           &copy; 2026 CREDITLINK. All Rights Reserved.
         </div>
-        <div><img src="/footerNameLogo.png" alt="" class="lastImg"></div>
+        <div><img src="/footerNameLogo.png" alt="" class="lastImg" /></div>
       </div>
     </footer>
   </body>
